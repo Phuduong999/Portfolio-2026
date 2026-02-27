@@ -17,6 +17,10 @@ const ericaOne = Erica_One({
 export const metadata: Metadata = {
   title: "Phu Duong — Portfolio",
   description: "Creative Developer & Researcher",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/apple-touch-icon.svg",
+  },
 };
 
 export const viewport: Viewport = {

@@ -320,6 +320,8 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 6px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .pc-handle {
@@ -327,12 +329,20 @@
   font-weight: 500;
   color: rgba(255, 255, 255, 0.9);
   line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .pc-status {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
   line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .pc-contact-btn {
@@ -345,6 +355,8 @@
   cursor: pointer;
   transition: all 0.2s ease;
   backdrop-filter: blur(10px);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .pc-contact-btn:hover {
