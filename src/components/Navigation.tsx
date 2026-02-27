@@ -50,7 +50,7 @@ export default function Navigation() {
         colors={isDark ? ['#9b80ff', '#7c5cff'] : ['#B19EEF', '#5227FF']}
         accentColor={isDark ? '#7c5cff' : '#5227FF'}
         isFixed={true}
-        menuButtonColor={isDark ? '#f5f5f5' : '#111'}
+        menuButtonColor="#ffffff"
         openMenuButtonColor="#fff"
         logoUrl="/logo-pd.svg"
         onMenuClose={() => {}}
