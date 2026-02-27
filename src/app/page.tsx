@@ -135,9 +135,8 @@ export default function Home() {
               behindGlowEnabled={true}
               behindGlowColor="rgba(125, 190, 255, 0.67)"
               behindGlowSize="50%"
-              enableTilt={true}
-              enableMobileTilt={true}
-              mobileTiltSensitivity={5}
+              enableTilt={!isMobile}
+              enableMobileTilt={false}
               contactText="Contact"
               onContactClick={() => router.push('/contact')}
               showUserInfo={false}
