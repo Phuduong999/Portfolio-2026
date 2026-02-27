@@ -140,7 +140,7 @@ export default function Home() {
               mobileTiltSensitivity={5}
               contactText="Contact"
               onContactClick={() => router.push('/contact')}
-              showUserInfo={true}
+              showUserInfo={false}
             />
           </div>
         </div>
