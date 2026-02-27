@@ -41,7 +41,7 @@ export default function Home() {
   const chatMessages: ChatMsg[] = [
     { text: 'Hey there 👋' },
     { text: "I'm Phu Duong" },
-    { text: 'I design & code things on the web' },
+    { text: 'I turn ideas into interactive digital experiences' },
     { text: 'Currently open for freelance projects 🚀' },
     {
       jsx: (
