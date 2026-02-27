@@ -36,7 +36,7 @@ export default function ProjectsPage() {
           bottomColor="#71C4FF"
           intensity={0.8}
           rotationSpeed={0.2}
-          interactive={!isMobile}
+          interactive={false}
           pillarWidth={4.0}
           pillarHeight={0.5}
           noiseIntensity={0.4}
